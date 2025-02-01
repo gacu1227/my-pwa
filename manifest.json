@@ -21,7 +21,7 @@
   "lang": "ja",
   "name": "My App",
   "short_name": "My App short",
-  "start_url": "/pwa/login/",
+  "start_url": "/my-pwa/pwa/login/",
   "scope": "/pwa",
   "description": "This is description",
   "id": "/"
