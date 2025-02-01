@@ -10,7 +10,7 @@ export default function PwaLogin() {
     if ('serviceWorker' in navigator) {
       console.log("インストール開始")
       navigator.serviceWorker
-        .register('/sw.js')
+        .register('/my-pwa/sw.js')
         .then(registration => {
           console.log('インストールしました。', registration.scope);
         })

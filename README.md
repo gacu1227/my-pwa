@@ -13,6 +13,9 @@ assetPrefix: "/my-static-site/",
 # package.jsonに追記
 "deploy": "npm run build && gh-pages -d out"
 
+# _nextが無効化されるので追加
+touch out/.nojekyll
+
 # github の設定から gh-pagesを公開設定にする
 ```
 
