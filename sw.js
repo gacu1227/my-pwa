@@ -1,4 +1,4 @@
-importScripts('/workbox-sw.js'); // Workboxが生成したサービスワーカーをインポート
+importScripts('/my-pwa/workbox-sw.js'); // Workboxが生成したサービスワーカーをインポート
 
 self.addEventListener("push", function (event) {
     if (event.data) {
